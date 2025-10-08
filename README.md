@@ -1,12 +1,12 @@
-# 🧠 Face Skin Disease Detection System
+# 🧠 Skin Disease Detection System
 
-A research and educational project that detects **7 types of face skin diseases** from images using **Deep Learning**. The system uses **MobileNetV2** (pretrained) for classification and provides **Grad-CAM visualizations** for explainability.
+A research and educational project that detects **7 types of skin diseases** from images using **Deep Learning**. The system uses **MobileNetV2** (pretrained) for classification and provides **Grad-CAM visualizations** for explainability.
 
 ---
 
 ## 🔹 Project Overview
 
-This project builds an **AI-powered face skin disease detection system** using images. The key steps include:
+This project builds an **AI-powered skin disease detection system** using images. The key steps include:
 
 1. **Data Preprocessing**: Resize images, check for blur, remove noise.  
 2. **Feature Extraction**: Compute Entropy, Edge Density, Mean & Standard Deviation.  
@@ -33,7 +33,7 @@ The system predicts the following diseases:
 ## 🔹 Project Structure
 
 ```
-FaceSkinDiseaseProject/
+SkinDiseaseProject/
 ├─ RawImages/                  # Original dataset images
 │   ├─ Chickenpox/
 │   ├─ Monkeypox/
@@ -55,7 +55,7 @@ FaceSkinDiseaseProject/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/FaceSkinDiseaseProject.git
+git clone https://github.com/yourusername/SkinDiseaseProject.git
 cd FaceSkinDiseaseProject
 ```
 
